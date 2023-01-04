@@ -48,5 +48,4 @@ fi
 
 export SERENITY_PORT_DIRS=("$SCRIPT")
 
-source $SERENITY_PORT_DIR/.port_include.sh
-
+$SERENITY_PORT_DIR/.port_include.sh $@
