@@ -7,8 +7,10 @@ makeopts+=(
     'RENDER_API=GL_LEGACY'
     'DEBUG=1'
 )
-depends=('SDL2' 'bla')
-files="https://github.com/Jan200101/sm64ex/archive/${commit_hash}.tar.gz sm64-${commit_hash}.tar.gz"
+depends=('SDL2')
+files=(
+    "https://github.com/Jan200101/sm64ex/archive/${commit_hash}.tar.gz#c43d7a5db89e604bbaa5c7dc205a7b7226945c439cefe3f5dca9a9e0fb5be0f8"
+)
 workdir="sm64ex-${commit_hash}"
 baserom="baserom.us.z64"
 
